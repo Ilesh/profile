@@ -247,7 +247,7 @@ nav .mdi-menu {
     line-height: 36pt;
     top: 0; }
 nav .active {
-    color: #E31B6D; }
+    color: var(--main-bg-color); }
 
 .carousel-wrap {
     position: relative;
