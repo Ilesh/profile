@@ -247,7 +247,8 @@ nav .mdi-menu {
     line-height: 36pt;
     top: 0; }
 nav .active {
-    color: var(--main-bg-color); }
+    color: var(--main-bg-color);
+}
 
 .carousel-wrap {
     position: relative;
@@ -572,28 +573,52 @@ section:nth-of-type(3) #gallery .mix .button:hover {
     background: #E31B6D;
     color: #fff; }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-    background: url("../image/thumb-1.jpg") center center/cover; }
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
+    background: url("../image/thumb-1.png") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-2.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-3.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-4.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-5.jpg") center center/cover; }
+
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
+    margin: 10px 8px 0 0;    border: 1px solid black;
+
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
+    margin: 10px 8px 0 0;
     background: url("../image/thumb-6.jpg") center center/cover; }
 section:nth-of-type(3) #gallery .mix .card {
     height: 240px;
@@ -782,10 +807,19 @@ footer .footnote .highlight {
     font-family: 'Open Sans';
     color: #E31B6D; }
 
+.cutom-buttom{
+    margin: 0 0 0 782px !important;
+}
+
 @media screen and (max-width: 400px) {
+
+
     section:nth-of-type(3) #gallery .mix .card {
         width: 100vw; } }
 @media screen and (min-width: 600px) {
+    .cutom-buttom{
+        margin: 0 0 0 782px !important;
+    }
     body {
         font-size: 12pt; }
 

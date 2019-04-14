@@ -3,10 +3,10 @@ $(document).ready(function(){
     // MODAL
     var modalText = {
         roambi: {
-            title: 'Roambi.com',
-            tag: 'BUSINESS ANALYTICS.',
-            detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-            link: 'http://www.roambi.com'
+            title: 'Recruitd',
+            tag: 'Making employment easy.',
+            detail: 'Recruitd is a social careers network that works for everyone – professionals, recruitment agencies and employers',
+            link: 'https://itunes.apple.com/us/app/recruitd/id1308161676?mt=8'
         },
         walker: {
             title: 'WalkerTracker',
@@ -118,7 +118,7 @@ $(document).ready(function(){
         });
         $.each($('#modal .slide'), function(index, value) {
             $(this).css({
-                background: "url('image/" + id + '-' + index + ".jpg') center center/cover",
+                background: "url('image/" + id + '-' + index + ".jpg') center top/cover",
                 backgroundSize: 'cover'
             });
 
